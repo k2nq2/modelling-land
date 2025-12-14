@@ -253,5 +253,5 @@ color: #fff;
     line-height: 7.5rem;
 }
 .hide{
-    display: none;
+    display: none !important;
 }
