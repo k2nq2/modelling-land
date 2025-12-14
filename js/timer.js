@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  const startDate = new Date(2025, 11, 12, 0, 0, 0); 
+  const startDate = new Date(2025, 11, 15, 0, 0, 0); 
   const durationMs = 4 * 24 * 60 * 60 * 1000; 
   const endDate = new Date(startDate.getTime() + durationMs);
 
