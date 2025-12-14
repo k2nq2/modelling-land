@@ -1,0 +1,39 @@
+.c8{
+    padding-top: 0;
+}
+.c8-hero{
+    width: 100%;
+}
+.c8-wrap{
+display: flex;
+flex-direction: column;
+gap: 4.7rem;
+margin-top: -17.4rem;
+}
+.c8-wrapper{
+
+}
+.c8-item{
+display: flex;
+align-items: flex-start;
+gap: 1rem;
+}
+.c8-item img{
+    width: 6.5rem;
+}
+.c8-item p{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 1.6rem;
+color: #fff;
+padding-top: 1rem;
+}
+.c8-title{
+padding-left: 7.3rem;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.8rem;
+text-transform: uppercase;
+color: #738ca5;
+margin-bottom: 2.5rem;
+}
