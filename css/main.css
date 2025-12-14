@@ -224,6 +224,7 @@ color: #fff;
     color: #FF3E13;
     line-height: 100%;
     margin-bottom: 3rem;
+    text-transform: uppercase;
 }
 .countdown{
     display: flex;
