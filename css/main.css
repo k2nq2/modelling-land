@@ -252,3 +252,6 @@ color: #fff;
     font-size: 3.5rem;
     line-height: 7.5rem;
 }
+.hide{
+    display: none;
+}
