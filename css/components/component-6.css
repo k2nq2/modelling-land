@@ -1,0 +1,39 @@
+.c6{
+
+}
+.c6-undertitle{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 1.6rem;
+color: #4d4d4d;
+margin-top: 2.5rem;
+margin-bottom: 3.5rem;
+}
+.c6-sert-wrap{
+    width: 36.7rem;
+    height: 27.9rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border: 1px solid #323232;
+    background-image: url(../../images/c6-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c6-sert-bot-wrap{
+    height: 10.6rem;
+    width: 36.7rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border: 1px solid #323232;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 1.2rem;
+    padding-top: 2.2rem;
+}
+.c6-sert-bot-wrap p{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 1.6rem;
+color: #fff;
+}

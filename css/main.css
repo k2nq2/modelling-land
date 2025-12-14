@@ -1,0 +1,215 @@
+:root {
+    --font-family: "Helvetica Neue", sans-serif;
+    --font-second: "Montserrat", sans-serif;
+    --second-family: "Bigerside Expanded Regular", sans-serif;
+    --third-family: "Bebas Neue", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a {
+    display: contents;
+    color: inherit;
+    text-decoration-line: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font: 400 2.3364485981vw/1.33 var(--font-family), sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #fff;
+}
+
+@media (min-width: 428px) {
+    html {
+        font: 400 10px var(--font-family), sans-serif;
+    }
+    body{
+        
+    }
+}
+
+body {
+    background: #000;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 143%;
+    max-width: 428px;
+}
+
+h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 11rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    padding-top: 12rem;
+}
+
+.container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin: 0 auto;
+}
+
+.full-width {
+    margin-left: -4.6rem;
+    padding-left: 4.6rem;
+    padding-right: 4.6rem;
+}
+
+.title {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 3.5rem;
+line-height: 100%;
+text-transform: uppercase;
+color: #fff;
+}
+.title-NL {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 86%;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.btn-link {
+    display: inline-block;
+    width: 100%;
+    /* height: 9.5rem; */
+    margin: 0 auto;
+}
+
+.btn {
+    width: 100%;
+    height: 8.8rem;
+    position: relative;
+    display: block;
+}
+
+.btn img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 33.6rem;
+    transform: translateX(-50%);
+}
+
+.btn p {
+    position: relative;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 138%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    padding-top: 2.9rem;
+}
+
+.btn1 {
+    margin: 1rem 0 7.2rem 0;
+}
+
+.underline {
+    text-decoration-line: underline !important;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.accent {
+    font-weight: 600;
+}
+
+#shadow-host-companion {
+    padding: 0 !important;
+}
+
+.bg1 {
+    background-image: url(../images/header-hero.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+/*.bg2 {
+    background-image: url(../images/bg2.svg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}*/
+
+.fixed-btn{
+    width: 42.8rem;
+    height: 7.5rem;
+    background-image: url(../images/flybtn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  position: fixed;
+  bottom: 0;
+}
+.fixed-btn.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.fixed-btn-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32rem;
+    height: 5.5rem;
+    background: #738ca5;
+    border-radius: 15rem;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.8rem;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+
+.policy-top-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.1rem;
+}
+.policy-title{
+    font-family: var(--font-family);
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-top: 8.5rem;
+    margin-bottom: 7.6rem;
+}
