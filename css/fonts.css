@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Forum-Regular.ttf) format('TrueType');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Thin'), local('BebasNeue-Thin'), url('../fonts/bebasneuethin.woff2') format('woff2'), url('../fonts/bebasneuethin.woff') format('woff'), url('../fonts/bebasneuethin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Light'), local('BebasNeue-Light'), url('../fonts/bebasneuelight.woff2') format('woff2'), url('../fonts/bebasneuelight.woff') format('woff'), url('../fonts/bebasneuelight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Book'), local('BebasNeueBook'), url('../fonts/bebasneuebook.woff2') format('woff2'), url('../fonts/bebasneuebook.woff') format('woff'), url('../fonts/bebasneuebook.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Regular'), local('BebasNeueRegular'), url('../fonts/bebasneueregular.woff2') format('woff2'), url('../fonts/bebasneueregular.woff') format('woff'), url('../fonts/bebasneueregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Bold'), local('BebasNeueBold'), url('../fonts/bebasneuebold.woff2') format('woff2'), url('../fonts/bebasneuebold.woff') format('woff'), url('../fonts/bebasneuebold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Expanded Black Italic'), local('RF-Dewi-Expanded-Black-Italic'), url('../fonts/RFDewiExpanded-BlackItalic.woff2') format('woff2'), url('../fonts/RFDewiExpanded-BlackItalic.woff') format('woff'), url('../fonts/RFDewiExpanded-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'RF Dewi UL';
+    src: local('RF Dewi Expanded Black Italic'), local('RF-Dewi-Expanded-Black-Italic'), url('../fonts/RFDewiExpanded-Ultrabold.woff2') format('woff2'), url('../fonts/RFDewiExpanded-Ultrabold.woff') format('woff'), url('../fonts/RFDewiExpanded-Ultrabold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bigerside Expanded Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bigerside Expanded Regular'), url('../fonts/BigersideExpanded-7O9Z4.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'Helvetica Neue';
+        src: local('Helvetica Neue Light'), local('Helvetica-Neue-Light'),
+            url('../fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
+            url('../fonts/HelveticaNeueCyr-Light.woff') format('woff'),
+            url('../fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Helvetica Neue';
+        src: local('Helvetica Neue Roman'), local('Helvetica-Neue-Roman'),
+            url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+            url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+            url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Helvetica Neue';
+        src: local('Helvetica Neue Medium'), local('Helvetica-Neue-Medium'),
+            url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+            url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'),
+            url('../fonts/HelveticaNeueCyr-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Helvetica Neue';
+        src: local('Helvetica Neue Thin'), local('Helvetica-Neue-Thin'),
+            url('../fonts/HelveticaNeueCyr-Thin.woff2') format('woff2'),
+            url('../fonts/HelveticaNeueCyr-Thin.woff') format('woff'),
+            url('../fonts/HelveticaNeueCyr-Thin.ttf') format('truetype');
+        font-weight: 200;
+        font-style: normal;
+      }
